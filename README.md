@@ -1,15 +1,18 @@
-API REST CRUD em TypeScript com MongoDB no Docker
-Este é um projeto de API RESTful em TypeScript que utiliza o MongoDB em um contêiner Docker para operações CRUD (Create, Read, Update, Delete). O projeto utiliza Node.js, Express e MongoDB.
+# API REST com CRUD em TypeScript
 
-Configuração
-Antes de começar, certifique-se de ter o Node.js e o Docker instalados em seu sistema.
+Este é um projeto que implementa uma API REST com operações CRUD (Create, Read, Update e Delete) usando TypeScript, Node.js, Express e MongoDB.
 
-Executando o MongoDB em um Contêiner Docker
-Certifique-se de que o Docker esteja em execução. Execute o seguinte comando para iniciar um contêiner MongoDB:
+## Requisitos
 
-bash
-Copy code
-docker run -d -p 27017:27017 --name mongodb mongo
-Isso iniciará um contêiner MongoDB que será acessível localmente em mongodb://localhost:27017.
+Antes de executar este projeto, certifique-se de que você tenha as seguintes dependências instaladas:
 
-Executando o Servido
+- Node.js: [Download e Instalação](https://nodejs.org/)
+- MongoDB: [Download e Instalação](https://www.mongodb.com/try/download/community)
+
+## Configuração
+
+npm install
+
+# ou
+
+yarn install
